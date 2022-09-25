@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
 
-    // Тесты на переключение громкости радио
+    // РўРµСЃС‚С‹ РЅР° РїРµСЂРµРєР»СЋС‡РµРЅРёРµ РіСЂРѕРјРєРѕСЃС‚Рё СЂР°РґРёРѕ
 
     @Test
     public void shouldIncreaseCurrentVolumeAverage() {
@@ -73,7 +73,7 @@ public class RadioTest {
         Assertions.assertEquals(expectedVolume, actualVolume);
     }
 
-    // Тесты на переключение радиостанций
+    // РўРµСЃС‚С‹ РЅР° РїРµСЂРµРєР»СЋС‡РµРЅРёРµ СЂР°РґРёРѕСЃС‚Р°РЅС†РёР№
 
     @Test
     public void shouldToNextStationAverage() {
